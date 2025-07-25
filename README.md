@@ -1,30 +1,39 @@
-# 🍎 NutriTrackAI — Web-Based Nutrition Info App Powered by Gemini AI
+# 🥗 NutriGem — AI-Powered Personalized Nutrition Advisor
 
-**NutriTrackAI** is a web-based application that helps users access accurate and detailed nutrition information for various food items. Designed with a user-friendly interface and powered by **Gemini AI**, this tool is ideal for health-conscious individuals aiming to track and manage their diet effectively.
-
----
-
-## 💡 Project Overview
-
-This application leverages the capabilities of **Gemini AI** to provide real-time, reliable nutritional insights. Whether you're a fitness enthusiast, someone managing a medical condition, or simply curious about your meals, NutriTrackAI empowers users to make informed food choices.
+**NutriGem** is a console-based Python application that provides personalized nutrition advice based on BMI, age, gender, health conditions, and dietary habits. It leverages **Google's Gemini AI** to generate expert-level, human-like nutrition recommendations tailored for each individual.
 
 ---
 
-## 🧠 Features
+## 🔍 Project Objective
 
-- 🔍 **AI-Powered Food Analysis**: Get detailed nutrition data by entering food names.
-- 📦 **Extensive Food Database**: Covers fruits, vegetables, packaged foods, and more.
-- 📊 **Nutritional Breakdown**: Displays macronutrients (calories, carbs, protein, fats) and micronutrients (vitamins, minerals).
-- 🧾 **Diet Management Support**: Ideal for users managing weight, diabetes, or other dietary needs.
-- 💬 **Conversational Input**: Ask AI about healthy alternatives or meal tips.
-- 📱 **Responsive Design**: Works across mobile and desktop devices.
+To help users better understand their nutrition status and improve their dietary habits using AI-driven insights. NutriGem supports users with different health goals — whether it's gaining weight, managing obesity, or ensuring balanced nutrient intake.
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Key Features
 
-- **Backend**: Python / Node.js 
-- **API/Model**: Gemini AI (Google)
-- **Libraries**: Axios / Fetch API for data calls
+- ✅ **BMI Calculation** based on user’s height and weight
+- 🧠 **AI-generated advice** from Google Gemini API
+- 🧾 **Health condition detection** (malnutrition, obesity, poor diet diversity, etc.)
+- 🥦 **Dietary analysis** (fruits, vegetables, protein, grains, micronutrients)
+- 🔁 **Multi-user support** in a single session
 
+---
 
+## 🛠️ Technologies Used
+
+| Component      | Technology                     |
+|----------------|---------------------------------|
+| Programming    | Python                          |
+| AI/ML API      | Google Generative AI (Gemini)   |
+| Libraries      | `google-generativeai`           |
+
+---
+
+## 📥 Installation Guide
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/nutrigem.git
+cd nutrigem
